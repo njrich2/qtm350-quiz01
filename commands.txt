@@ -15,5 +15,10 @@
 12. mv data/raw-data.csv data/input-data.csv
 13. mkdir scripts/backup && cp scripts/*.py scripts/backup/
 14. rm docs/documentation.md
-15. 
+15. git add .
+    git commit -m "Update project files"
+16. touch .gitignore
+17. echo -e "temp/\ndataset0?.csv" > .gitignore
+18. cat .gitignore
+19. 
    
