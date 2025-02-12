@@ -1,0 +1,19 @@
+1. Forked in GitHub
+2. cd /Users/nicholasrichards/Desktop/QTM_350/github
+   git clone https://github.com/njrich2/qtm350-quiz01
+3. cd qtm350-quiz01
+4. touch commands.txt
+5. git checkout -b feature-update
+6. mkdir reports
+7. cd reports
+   touch summary.md
+8. echo "This provides a summary of the project updates." > summary.md
+9. cd ..
+   git add reports
+10. git commit -m "Add reports directory"
+11. touch reports/file{1..3}.txt
+12. mv data/raw-data.csv data/input-data.csv
+13. mkdir scripts/backup && cp scripts/*.py scripts/backup/
+14. rm docs/documentation.md
+15. 
+   
