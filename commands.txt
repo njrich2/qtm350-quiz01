@@ -20,5 +20,6 @@
 16. touch .gitignore
 17. echo -e "temp/\ndataset0?.csv" > .gitignore
 18. cat .gitignore
-19. 
+19. git add . && git commit -m "Add .gitignore file"
+20. 
    
